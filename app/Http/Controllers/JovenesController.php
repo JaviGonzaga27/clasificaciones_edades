@@ -9,8 +9,8 @@ class JovenesController extends Controller
     public function index()
     {
         return view('ages.jovenes', [
-            'classification' => 'Jóvenes',
-            'range' => '6 - 11 años'
+            'classification' => 'Jóvenes adultos',
+            'range' => '18 - 25 años'
         ]);
     }
 }

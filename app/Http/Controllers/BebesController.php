@@ -9,7 +9,7 @@ class BebesController extends Controller
     public function index()
     {
         return view('ages.bebes', [
-            'classification' => 'Bebes',
+            'classification' => 'Bebés',
             'range' => '0 - 5 años'
         ]);
     }

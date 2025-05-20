@@ -9,7 +9,7 @@ class LongevosController extends Controller
     public function index()
     {
         return view('ages.longevos', [
-            'classification' => 'Longevos',
+            'classification' => 'Personas longevas',
             'range' => '75 - 120 años'
         ]);
     }

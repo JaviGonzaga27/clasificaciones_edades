@@ -9,7 +9,7 @@ class MayoresController extends Controller
     public function index()
     {
         return view('ages.mayores', [
-            'classification' => 'Mayores',
+            'classification' => 'Adultos mayores',
             'range' => '60 - 74 años'
         ]);
     }

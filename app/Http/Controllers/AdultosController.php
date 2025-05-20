@@ -10,7 +10,7 @@ class AdultosController extends Controller
     {
         return view('ages.adultos', [
             'classification' => 'Adultos',
-            'range' => '19 - 59 años'
+            'range' => '26 - 59 años'
         ]);
     }
 }

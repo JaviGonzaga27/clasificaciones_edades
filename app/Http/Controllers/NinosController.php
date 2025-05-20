@@ -10,7 +10,7 @@ class NinosController extends Controller
     {
         return view('ages.ninos', [
             'classification' => 'Niños',
-            'range' => '6 - 11 años'
+            'range' => '6 - 12 años'
         ]);
     }
 }

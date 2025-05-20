@@ -10,7 +10,7 @@ class AdolescentesController extends Controller
     {
         return view('ages.adolescentes', [
             'classification' => 'Adolescentes',
-            'range' => '12 - 18 años'
+            'range' => '13 - 17 años'
         ]);
     }
 }
